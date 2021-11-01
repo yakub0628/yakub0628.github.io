@@ -1,0 +1,115 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #586695;
+}
+@font-face{
+	font-family:"OleoScript";
+	src:url(../fonts/OleoScript-Bold.ttf);
+}
+main{
+	width: 65%;
+	margin: auto;
+	background-image: url(../img/usa2.jpg);
+	padding: 10px;
+	display: flex;
+	box-shadow: 0 0 120px 47px #c11fdd;
+	flex-wrap:wrap;
+	justify-content: center;
+	background-size: cover;
+	background-position: center;
+
+}
+.photo{
+	width: calc(50% - 40px) ;
+	height: calc((35vw - 40px) / 16 * 9);
+	background-color: #efefef;
+	margin: 20px;
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0 0 16px 6px #00bcd4;
+	border-radius: 20px;
+	transition: all 0.8s ease-in-out;
+} 
+.photo:hover {
+	transform: scale(1.07) rotate(5deg);
+	box-shadow: 0 0 16px 6px #00bcd4;
+}
+.photo:active {
+	box-shadow: 0 0 16px 6px red;
+	transform: rotate(-5deg);
+	width: calc(55% - 40px) ;
+	height: calc((45vw - 40px) / 16 * 9);
+	background-color: #efefef;
+	margin: 20px;
+}
+h1{
+	text-align: center;
+	width: 100% ;
+	font-size: 48px ;
+	color: #d30924cf;
+	font-family:"OleoScript";
+}
+.photo1 {
+background-image: url(../img/img1.jpg) ;
+}
+.photo2 {
+background-image: url(../img/img5.jpg) ;
+}    
+.photo3 {
+background-image: url(../img/img3.jpg) ;
+}  
+.photo4 {
+background-image: url(../img/img4.jpg) ;
+}  
+.photo5 {
+background-image: url(../img/img5.jpg) ;
+}  
+.photo6 {
+background-image: url(../img/img6.jpg) ;
+}  
+.photo7 {
+background-image: url(../img/img7.jpg) ;
+}  
+.photo8 {
+background-image: url(../img/img8.jpg) ;
+}  
+.photo9 {
+background-image: url(../img/img9.jpg) ;
+}  
+.photo10 {
+background-image: url(../img/img10.jpg) ;
+}  
+.photo11 {
+background-image: url(../img/img11.jpg) ;
+}  
+.photo12 {
+background-image: url(../img/img12.jpg) ;
+}  
+.photo13 {
+background-image: url(../img/img13.jpg) ;
+}  
+.photo14 {
+background-image: url(../img/img14.jpg) ;
+}  
+.photo15 {
+background-image: url(../img/img15.jpg) ;
+}  
+.photo16 {
+background-image: url(../img/img16.jpg) ;
+}  
+.photo17 {
+background-image: url(../img/img17.jpg) ;
+}  
+.photo18 {
+background-image: url(../img/img18.jpg) ;
+}  
+.photo19 {
+background-image: url(../img/img19.jpg) ;
+}  
+.photo20{
+background-image: url(../img/img20.jpg) ;
+}  
